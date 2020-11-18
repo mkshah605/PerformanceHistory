@@ -17,7 +17,7 @@ library(utils)
 library(widyr)
 
 # load raw data
-rawdata <- read.csv("/Users/mkshah605/Desktop/Music Project/nyphilarchive_raw.csv")
+rawdata <- read.csv("/Users/mkshah605/Documents/GitHub/PerformanceHistory/Analysis/nyphilarchive_raw.csv")
 
 ### Edit Season Value ###
 # We want just the first year to represent the season
@@ -61,12 +61,12 @@ rawdata$program_work_date_id <- rawdata %>% group_indices(program_id,date, Work_
 ### Reorder Columns ###
 rawdata <- rawdata[, c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25)]
 
-write.csv(rawdata, file = "/Users/mkshah605/Desktop/Music Project/nyphilarchive_cleaned.csv")
+write.csv(rawdata, file = "/Users/mkshah605/Documents/GitHub/PerformanceHistory/Analysis/nyphilarchive_cleaned.csv")
 
 # isolate just data from 2000 onwards
 
 raw2000 <- rawdata[rawdata$date >= '2000-01-01']
-write.csv(raw2000, file = "/Users/mkshah605/Desktop/Music Project/nyphilarchive2000_cleaned.csv")
+write.csv(raw2000, file = "/Users/mkshah605/Documents/GitHub/PerformanceHistory/Analysis/nyphilarchive2000_cleaned.csv")
 
 ###################################################################################################
 

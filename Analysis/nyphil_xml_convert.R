@@ -17,9 +17,9 @@ library(tidyverse)
 library(data.table)
 
 
-xmlfile <- xmlParse(file="/Users/mkshah605/Desktop/Music Project/PerformanceHistory-master/Programs/xml/complete.xml", useInternalNodes = TRUE)
+xmlfile <- xmlParse(file="/Users/mkshah605/Documents/GitHub/PerformanceHistory/Programs/xml/complete.xml", useInternalNodes = TRUE)
 
-xmlread<- read_xml("/Users/mkshah605/Desktop/Music Project/PerformanceHistory-master/Programs/xml/complete.xml")
+xmlread<- read_xml("/Users/mkshah605/Documents/GitHub/PerformanceHistory/Programs/xml/complete.xml")
 xml_name(xmlread) #programs
 xml_children(xmlread)
 child <- xml_child(xmlread, 1)
@@ -27,7 +27,7 @@ xml_attrs(xmlread)
 childlist <- as_list(child)
 
 
-fileurl <- "/Users/mkshah605/Desktop/Music Project/PerformanceHistory-master/Programs/xml/complete.xml"
+fileurl <- "/Users/mkshah605/Documents/GitHub/PerformanceHistory/Programs/xml/complete.xml"
 doc <- xmlParse(fileurl,useInternalNodes = TRUE) ### xmlParse()- is to parse the xml content, the parsed content is stored into doc
 doc
 

@@ -20,7 +20,7 @@ library(dplyr)
 library(forcats)
 
 # load raw data
-cleaned_data <- read.csv("/Users/mkshah605/Desktop/Music Project/nyphilarchive_cleaned.csv")
+cleaned_data <- read.csv("/Users/mkshah605/Documents/GitHub/PerformanceHistory/Analysis/nyphilarchive_cleaned.csv")
 
 
 # Isolate rows 2000s data
