@@ -3,7 +3,7 @@ This is an ongoing exploratory analysis project that combines two of my passions
 
 Publicly-available data at this scale in the classical music world is sparse, and I hope to use the NYPhil's dataset to illustrate the importance of maintaining such publicly-available datasets, and the wealth of information they can offer classical musicians, institutions, and enthusiasts alike.
 
-Finding and results to follow.
+Findings and results to follow.
 
 # New York Philharmonic Performance History
 The New York Philharmonic played its first concert on December 7, 1842. Since then, it has merged with the New York Symphony, the New/National Symphony, and had a long-running summer season at New York's Lewisohn Stadium. This [Performance History database](http://archives.nyphil.org/performancehistory) documents all known concerts of all of these organizations, amounting to more than 20,000 performances. The [New York Philharmonic Leon Levy Digital Archives](http://archives.nyphil.org) provides an additional interface for searching printed programs alongside other digitized items such as marked music scores, marked orchestral parts, business records, and photos.
