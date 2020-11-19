@@ -1,4 +1,4 @@
-# Analyzing NYPhil's Performance History
+# Mansi's Analysis of NYPhil's Performance History
 This is an ongoing exploratary analysis project that combines two of my passions- music and data science.
 
 Publicly-available data at this scale in the classical music world is sparse, and I hope to use the NYPhil's dataset to illustrate the importance of maintaining such publicly-available datasets, and the wealth of information they can offer classical musicians, institutions, and enthusiasts alike.
